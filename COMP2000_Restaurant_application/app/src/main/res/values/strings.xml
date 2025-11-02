@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">COMP2000_Restaurant_application</string>
+    <string name="Table_Number_txt">Table number:</string>
+    <string name="Menu_item">Menu item name and description</string>
+</resources>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/menu_Item_Pic15"
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu_Item_Txt4"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/menu_Item_Txt12"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/Menu_item"
+        app:layout_constraintStart_toEndOf="@+id/menu_Item_Txt15"
+        app:layout_constraintTop_toBottomOf="@+id/menu_Item_Pic12" />
+
+    <ImageView
+        android:id="@+id/menu_Item_Pic13"
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/menu_Item_Pic12"
+        app:layout_constraintTop_toBottomOf="@+id/menu_Item_Txt7"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/menu_Item_Txt13"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/Menu_item"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu_Item_Pic15" />
+
+    <TextView
+        android:id="@+id/menu_Item_Txt14"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:text="@string/Menu_item"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/menu_Item_Txt12"
+        app:layout_constraintTop_toBottomOf="@+id/menu_Item_Pic13" />
+
+    <ImageView
+        android:id="@+id/menu_Item_Pic14"
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintStart_toEndOf="@+id/menu_Item_Pic15"
+        app:layout_constraintTop_toBottomOf="@+id/menu_Item_Txt5"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/menu_Item_Txt15"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/Menu_item"
+        app:layout_constraintStart_toEndOf="@+id/menu_Item_Txt13"
+        app:layout_constraintTop_toBottomOf="@+id/menu_Item_Pic14" />
+
+    <ImageView
+        android:id="@+id/menu_Item_Pic12"
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintStart_toEndOf="@+id/menu_Item_Pic14"
+        app:layout_constraintTop_toBottomOf="@+id/menu_Item_Txt6"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/menu_Item_Pic4"
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Menu_Item_Txt1"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/menu_Item_Txt4"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/Menu_item"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu_Item_Pic4" />
+
+    <TextView
+        android:id="@+id/menu_Item_Txt5"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/Menu_item"
+        app:layout_constraintStart_toEndOf="@+id/menu_Item_Txt4"
+        app:layout_constraintTop_toBottomOf="@+id/menu_Item_Pic5" />
+
+    <TextView
+        android:id="@+id/menu_Item_Txt6"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/Menu_item"
+        app:layout_constraintStart_toEndOf="@+id/menu_Item_Txt5"
+        app:layout_constraintTop_toBottomOf="@+id/menu_Item_Pic6" />
+
+    <ImageView
+        android:id="@+id/menu_Item_Pic6"
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintStart_toEndOf="@+id/menu_Item_Pic5"
+        app:layout_constraintTop_toBottomOf="@+id/menu_Item_Txt2"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/menu_Item_Pic7"
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/menu_Item_Pic6"
+        app:layout_constraintTop_toBottomOf="@+id/menu_Item_Txt3"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/menu_Item_Txt7"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:text="@string/Menu_item"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/menu_Item_Txt6"
+        app:layout_constraintTop_toBottomOf="@+id/menu_Item_Pic7" />
+
+    <ImageView
+        android:id="@+id/menu_Item_Pic5"
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintStart_toEndOf="@+id/menu_Item_Pic4"
+        app:layout_constraintTop_toBottomOf="@+id/menu_Item_Txt"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/menu_Item_Pic3"
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/menu_Item_Pic2"
+        app:layout_constraintTop_toBottomOf="@+id/Table_Number.spn"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/menu_Item_Txt3"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/Menu_item"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/menu_Item_Txt2"
+        app:layout_constraintTop_toBottomOf="@+id/menu_Item_Pic3" />
+
+    <ImageView
+        android:id="@+id/menu_Item_Pic2"
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintStart_toEndOf="@+id/menu_Item_Pic"
+        app:layout_constraintTop_toBottomOf="@+id/Table_Number.spn"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/menu_Item_Txt2"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/Menu_item"
+        app:layout_constraintStart_toEndOf="@+id/menu_Item_Txt"
+        app:layout_constraintTop_toBottomOf="@+id/menu_Item_Pic2" />
+
+    <ImageView
+        android:id="@+id/menu_Item_Pic"
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintStart_toEndOf="@+id/Menu_Item_Pic1"
+        app:layout_constraintTop_toBottomOf="@+id/Table_Number.spn"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/Profile_Button"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/profile_picture"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Basket_Button" />
+
+    <ImageButton
+        android:id="@+id/Calendar_Button"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/calendar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Notification_Button" />
+
+    <ImageButton
+        android:id="@+id/Notification_Button"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/notification_bell"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Menu_Button" />
+
+    <ImageButton
+        android:id="@+id/Basket_Button"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/shopping_bag"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Calendar_Button" />
+
+    <TextView
+        android:id="@+id/Table_Number.txt"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/Table_Number_txt"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/Table_Number.spn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/Table_Number.spn"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/Table_Number.txt"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/Menu_Button"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/restaurant_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/Menu_Item_Pic1"
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Table_Number.spn"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/menu_Item_Txt"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/Menu_item"
+        app:layout_constraintStart_toEndOf="@+id/Menu_Item_Txt1"
+        app:layout_constraintTop_toBottomOf="@+id/menu_Item_Pic" />
+
+    <TextView
+        android:id="@+id/Menu_Item_Txt1"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/Menu_item"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Menu_Item_Pic1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
