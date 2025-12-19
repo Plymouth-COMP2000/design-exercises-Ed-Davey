@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Restaurant_app</string>
+    <string name="etUsernameText">Username: </string>
+    <string name="etPasswordText">Password: </string>
+    <string name="rbStaffName">Staff</string>
+    <string name="rbGuestName">Guest</string>
+    <string name="buttonLogin">Login</string>
+    <string name="buttonAddMenuItem">Add menu item</string>
+</resources>
