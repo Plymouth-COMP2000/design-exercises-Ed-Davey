@@ -1,4 +1,4 @@
-The Cracker - Restaurant management app for COMP2000 CW2 coursework
+The Cracker, Restaurant management app for COMP2000 CW2 coursework
 
 This app integrates a RESTful API for user authentication, a local SQLite database for menu items, reservations, and notifications, and role-based access controls.
 The most up-to-date version of the project is located at:
