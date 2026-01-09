@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Restaurant_app</string>
+    <string name="etUsernameText">Username: </string>
+    <string name="etPasswordText">Password: </string>
+    <string name="buttonLogin">Login</string>
+    <string name="buttonAddMenuItem">Add menu item</string>
+    <string name="buttonReservation">Submit</string>
+    <string name="textResNameHint">Name for booking</string>
+    <string name="textResDateHint">Date of booking (DD:MM:YYYY)</string>
+    <string name="textResTimeHint">Time of booking (MM:HH)</string>
+    <string name="buttonResCancel">Cancel</string>
+    <string name="switchNotification">Enable Notifications</string>
+    <string name="buttonMainStaffMenu">Menu</string>
+    <string name="buttonMainStaffNotifications">Notifications</string>
+    <string name="buttonMainStaffSettings">Settings</string>
+    <string name="buttonMainGuestBookings">Bookings</string>
+    <string name="buttonMainGuestMenu">Menu</string>
+    <string name="buttonMainGuestNotifications">Notifications</string>
+    <string name="buttonMainGuestSettings">Settings</string>
+    <string name="buttonMainStaffReservations">Reservations</string>
+    <string name="buttonMainStaffLogout">Logout</string>
+    <string name="buttonMainGuestLogout">logout</string>
+    <string name="buttonSave">Save</string>
+    <string name="editTextMenuPriceHint">Price</string>
+    <string name="editTextMenuNameHint">Item name</string>
+    <string name="textViewMenuTitle">Add menu item</string>
+</resources>
